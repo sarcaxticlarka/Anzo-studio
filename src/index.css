@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+
+
+@font-face {
+  font-family: font1;
+  src: url(./assets/anzo1.woff2);
+}
+@font-face {
+  font-family: font2;
+  src: url(./assets/anzo2.woff2);
+}
+@font-face {
+  font-family: font3;
+  src: url(./assets/anzo3.woff2);
+}
+@font-face {
+  font-family: font4;
+  src: url(./assets/anzo4.woff2);
+}
+@font-face {
+  font-family: font5;
+  src: url(./assets/anzo5.woff2);
+}
+@font-face {
+  font-family: font6;
+  src: url(./assets/anzo6.woff2);
+}
+
+
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'anzo';
+ }
+ html, body{
+  height: 100%;
+  width: 100%;
+ }
+
+ #page1-in{
+  position: relative;
+  perspective: 400px;
+ }
+ #tiltDiv{
+  width: fit-content;
+  transform: rotateY(0deg);
+ }
+ #section2{
+  position: relative;
+  perspective: 2000px;
+ }
+
+ .textAnim{
+  transform-origin: 100% 70%;
+ }
+
+ #section3{
+  position: relative;
+  perspective: 1500px;
+ }
+
+ .texttilt{
+  transform-origin: 100% 70%;
+ }
+
+
+ #hireme {
+  transition: transform 0.3s ease, background 0.3s ease;  
+ }
+#hireme:hover {
+  background: #4a4848;
+  transform: scale(1.1); 
+}
+#hireme { 
+  animation: bubble 2s infinite; 
+}
+
+@keyframes bubble {
+  0%, 100% {
+    transform: scale(1);  
+  }
+  50% {
+    transform: scale(1.1);  
+  }
+}
