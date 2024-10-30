@@ -1,6 +1,6 @@
 import React from 'react'
 // import Page1 from './pages/Page1'
-import Page1 from './pages/page1'
+import Page1 from './pages/Page1'
 import Page2 from './pages/Page2'
 import Header from './components/Header'
 import Page3 from './pages/Page3'
