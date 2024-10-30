@@ -16,7 +16,7 @@ const Page12 = () => {
           autoPlay
           loop
           muted
-          src="./src/assets/statue.mp4"
+          src="/src/assets/statue.mp4"
         />
 
         <div className='absolute inset-0 flex flex-col items-center justify-center z-50'>
