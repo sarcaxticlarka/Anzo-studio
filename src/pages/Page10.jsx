@@ -1,4 +1,6 @@
 import React from 'react';
+import moon from './../assets/moon.mp4';
+
 
 const Page10 = () => {
     return (
@@ -16,7 +18,7 @@ const Page10 = () => {
                     autoPlay
                     loop
                     muted
-                    src="./src/assets/moon.mp4"
+                    src={moon}
                 />
 
                 <div className='absolute inset-0 flex flex-col items-center justify-center z-50'>
