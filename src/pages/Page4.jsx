@@ -1,10 +1,11 @@
 import React from 'react'
+import moon from './../assets/moon.mp4';
 
 const Page4 = () => {
   return (
     <div className='h-screen relative p-3'>
     <div className='h-full w-full bg-black overflow-hidden rounded-[2vw]'>
-      <video className='object-cover right-20 top-40 absolute' autoPlay loop muted src="./src/assets/moon.mp4"></video>
+      <video className='object-cover right-20 top-40 absolute' autoPlay loop muted src={moon}></video>
       <h1 className='font-[font6] text-gray-400 text-[20vw] relative left-28'>WHAT</h1>
       <h1 className='font-[font6] text-white text-[20vw] relative leading-[2vw]  left-28'>I DO</h1>
       <h4 className='text-white text-[1.2vw] absolute bottom-40 font-[font5] left-28'>I DESIGN AND DEVELOP</h4>
