@@ -1,4 +1,5 @@
 import React from 'react';
+import statue from './../assets/statue.mp4';
 
 const Page12 = () => {
   return (
@@ -16,7 +17,7 @@ const Page12 = () => {
           autoPlay
           loop
           muted
-          src="src/assets/statue.mp4"
+          src={statue}
         />
 
         <div className='absolute inset-0 flex flex-col items-center justify-center z-50'>
